@@ -1,0 +1,832 @@
+2026-06-25 15:24:20.103 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:24:20.109 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 15:24:20.109 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:24:20.111 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 15:24:20.112 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: true
+2026-06-25 15:24:28.953 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:24:55.749 [main] ERROR com.automation.pages.LoginPage — Login page failed to load: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: login-button' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-25 15:24:55.811 [main] ERROR com.automation.hooks.Hooks — Step failed in scenario: Successful login with valid credentials
+2026-06-25 15:24:55.819 [main] ERROR com.automation.hooks.Hooks — SCENARIO FAILED: Successful login with valid credentials
+2026-06-25 15:24:56.042 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:24:56.043 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:24:56.061 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:24:56.062 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 15:24:56.062 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:24:56.062 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: true
+2026-06-25 15:24:57.295 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:25:24.047 [main] ERROR com.automation.pages.LoginPage — Login page failed to load: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: login-button' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-25 15:25:24.079 [main] ERROR com.automation.hooks.Hooks — Step failed in scenario: Login fails with locked out user
+2026-06-25 15:25:24.083 [main] ERROR com.automation.hooks.Hooks — SCENARIO FAILED: Login fails with locked out user
+2026-06-25 15:25:24.255 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:25:24.256 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:25:24.274 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:25:24.276 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:25:24.276 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:25:24.276 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: true
+2026-06-25 15:25:25.379 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:25:52.120 [main] ERROR com.automation.pages.LoginPage — Login page failed to load: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: login-button' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-25 15:25:52.159 [main] ERROR com.automation.hooks.Hooks — Step failed in scenario: Login fails with invalid credentials
+2026-06-25 15:25:52.167 [main] ERROR com.automation.hooks.Hooks — SCENARIO FAILED: Login fails with invalid credentials
+2026-06-25 15:25:52.343 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:25:52.343 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:25:52.353 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:25:52.354 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:25:52.354 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:25:52.354 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: true
+2026-06-25 15:25:53.507 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:26:20.230 [main] ERROR com.automation.pages.LoginPage — Login page failed to load: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: login-button' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-25 15:26:20.278 [main] ERROR com.automation.hooks.Hooks — Step failed in scenario: Login fails with invalid credentials
+2026-06-25 15:26:20.282 [main] ERROR com.automation.hooks.Hooks — SCENARIO FAILED: Login fails with invalid credentials
+2026-06-25 15:26:20.435 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:26:20.435 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:26:20.442 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:26:20.442 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:26:20.443 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:26:20.443 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: true
+2026-06-25 15:26:21.584 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:26:48.306 [main] ERROR com.automation.pages.LoginPage — Login page failed to load: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: login-button' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-25 15:26:48.329 [main] ERROR com.automation.hooks.Hooks — Step failed in scenario: Login fails with invalid credentials
+2026-06-25 15:26:48.336 [main] ERROR com.automation.hooks.Hooks — SCENARIO FAILED: Login fails with invalid credentials
+2026-06-25 15:26:48.487 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:26:48.487 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:30:58.063 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:30:58.069 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 15:30:58.069 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:30:58.071 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 15:30:58.072 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:30:59.784 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:31:00.247 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:31:00.366 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:31:00.414 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:31:00.808 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 15:31:00.967 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:31:00.967 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 15:31:06.395 [main] INFO  com.automation.bases.BasePage — Clicked element: unknown-element
+2026-06-25 15:31:06.397 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:31:06.671 [main] INFO  com.automation.pages.HomePage — Home page loaded: true
+2026-06-25 15:31:06.675 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified home page loaded
+2026-06-25 15:31:06.945 [main] INFO  com.automation.bases.BasePage — Read text 'Products' from: span
+2026-06-25 15:31:06.945 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified page heading: Products
+2026-06-25 15:31:07.163 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Successful login with valid credentials
+2026-06-25 15:31:07.350 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:31:07.351 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:31:07.368 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:31:07.369 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 15:31:07.369 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:31:07.369 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:31:08.507 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:31:10.615 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:31:10.669 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:31:10.696 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:31:11.052 [main] INFO  com.automation.bases.BasePage — Typed 'locked_out_user' into: id=user-name
+2026-06-25 15:31:11.235 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:31:11.235 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: locked_out_user
+2026-06-25 15:31:11.576 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:31:11.584 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:31:11.700 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:31:11.952 [main] INFO  com.automation.bases.BasePage — Read text 'Epic sadface: Sorry, this user has been locked out.' from: h3
+2026-06-25 15:31:11.952 [main] WARN  com.automation.pages.LoginPage — Login error displayed: Epic sadface: Sorry, this user has been locked out.
+2026-06-25 15:31:11.960 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message contains: locked out
+2026-06-25 15:31:12.075 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with locked out user
+2026-06-25 15:31:12.229 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:31:12.229 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:31:12.239 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:31:12.240 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:31:12.240 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:31:12.240 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:31:13.343 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:31:13.768 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:31:13.813 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:31:13.837 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:31:14.081 [main] INFO  com.automation.bases.BasePage — Typed 'wrong_user' into: id=user-name
+2026-06-25 15:31:14.269 [main] INFO  com.automation.bases.BasePage — Typed 'wrongpass' into: id=password
+2026-06-25 15:31:14.269 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: wrong_user
+2026-06-25 15:31:14.530 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:31:14.530 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:31:14.638 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:31:14.731 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:31:14.885 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:31:14.885 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:31:14.892 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:31:14.892 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:31:14.892 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:31:14.892 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:31:16.128 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:31:16.751 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:31:16.785 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:31:16.801 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:31:17.095 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 15:31:17.220 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=password
+2026-06-25 15:31:17.220 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 15:31:17.503 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:31:17.503 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:31:17.685 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:31:17.795 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:31:17.942 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:31:17.943 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:31:17.951 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:31:17.951 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:31:17.951 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:31:17.951 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:31:19.107 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:31:19.552 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:31:19.579 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:31:19.607 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:31:19.847 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=user-name
+2026-06-25 15:31:20.011 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:31:20.016 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: 
+2026-06-25 15:31:20.278 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:31:20.285 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:31:20.402 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:31:20.498 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:31:20.648 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:31:20.649 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:39:07.427 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:07.434 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 15:39:07.435 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:07.436 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 15:39:07.437 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:39:09.200 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:39:09.752 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:39:09.871 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:39:09.907 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:39:10.282 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 15:39:10.479 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:39:10.479 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 15:39:15.833 [main] INFO  com.automation.bases.BasePage — Clicked element: unknown-element
+2026-06-25 15:39:15.833 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:39:16.090 [main] INFO  com.automation.pages.HomePage — Home page loaded: true
+2026-06-25 15:39:16.090 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified home page loaded
+2026-06-25 15:39:16.346 [main] INFO  com.automation.bases.BasePage — Read text 'Products' from: span
+2026-06-25 15:39:16.346 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified page heading: Products
+2026-06-25 15:39:16.496 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Successful login with valid credentials
+2026-06-25 15:39:16.666 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:39:16.666 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:39:16.679 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:16.679 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 15:39:16.679 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:16.680 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:39:17.845 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:39:18.252 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:39:18.282 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:39:18.309 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:39:18.592 [main] INFO  com.automation.bases.BasePage — Typed 'locked_out_user' into: id=user-name
+2026-06-25 15:39:18.742 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:39:18.742 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: locked_out_user
+2026-06-25 15:39:19.000 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:39:19.000 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:39:19.161 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:39:19.370 [main] INFO  com.automation.bases.BasePage — Read text 'Epic sadface: Sorry, this user has been locked out.' from: h3
+2026-06-25 15:39:19.370 [main] WARN  com.automation.pages.LoginPage — Login error displayed: Epic sadface: Sorry, this user has been locked out.
+2026-06-25 15:39:19.370 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message contains: locked out
+2026-06-25 15:39:19.481 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with locked out user
+2026-06-25 15:39:19.634 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:39:19.634 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:39:19.645 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:19.645 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:39:19.645 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:19.645 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:39:20.781 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:39:21.281 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:39:21.326 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:39:21.340 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:39:21.632 [main] INFO  com.automation.bases.BasePage — Typed 'wrong_user' into: id=user-name
+2026-06-25 15:39:21.823 [main] INFO  com.automation.bases.BasePage — Typed 'wrongpass' into: id=password
+2026-06-25 15:39:21.823 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: wrong_user
+2026-06-25 15:39:22.093 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:39:22.093 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:39:22.235 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:39:22.338 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:39:22.491 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:39:22.491 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:39:22.499 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:22.499 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:39:22.499 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:22.499 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:39:23.646 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:39:24.158 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:39:24.193 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:39:24.208 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:39:24.490 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 15:39:24.629 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=password
+2026-06-25 15:39:24.629 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 15:39:24.881 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:39:24.881 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:39:25.052 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:39:25.147 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:39:25.301 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:39:25.302 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:39:25.310 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:25.310 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:39:25.310 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:39:25.310 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:39:26.396 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:39:26.927 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:39:26.965 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:39:26.974 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:39:27.226 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=user-name
+2026-06-25 15:39:27.351 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:39:27.351 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: 
+2026-06-25 15:39:27.556 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:39:27.556 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:39:27.690 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:39:27.781 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:39:27.938 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:39:27.939 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:44:05.167 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:05.173 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 15:44:05.174 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:05.175 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 15:44:05.176 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:44:06.943 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:44:07.415 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:44:07.529 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:44:07.562 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:44:07.924 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 15:44:08.094 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:44:08.097 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 15:44:13.390 [main] INFO  com.automation.bases.BasePage — Clicked element: unknown-element
+2026-06-25 15:44:13.394 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:44:13.641 [main] INFO  com.automation.pages.HomePage — Home page loaded: true
+2026-06-25 15:44:13.641 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified home page loaded
+2026-06-25 15:44:13.923 [main] INFO  com.automation.bases.BasePage — Read text 'Products' from: span
+2026-06-25 15:44:13.923 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified page heading: Products
+2026-06-25 15:44:14.119 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Successful login with valid credentials
+2026-06-25 15:44:14.336 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:44:14.336 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:44:14.345 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:14.345 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 15:44:14.345 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:14.345 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:44:15.496 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:44:16.127 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:44:16.189 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:44:16.220 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:44:16.494 [main] INFO  com.automation.bases.BasePage — Typed 'locked_out_user' into: id=user-name
+2026-06-25 15:44:16.616 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:44:16.616 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: locked_out_user
+2026-06-25 15:44:16.835 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:44:16.835 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:44:16.977 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:44:17.163 [main] INFO  com.automation.bases.BasePage — Read text 'Epic sadface: Sorry, this user has been locked out.' from: h3
+2026-06-25 15:44:17.164 [main] WARN  com.automation.pages.LoginPage — Login error displayed: Epic sadface: Sorry, this user has been locked out.
+2026-06-25 15:44:17.164 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message contains: locked out
+2026-06-25 15:44:17.268 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with locked out user
+2026-06-25 15:44:17.435 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:44:17.435 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:44:17.449 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:17.450 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:44:17.450 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:17.450 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:44:18.594 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:44:19.082 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:44:19.111 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:44:19.134 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:44:19.385 [main] INFO  com.automation.bases.BasePage — Typed 'wrong_user' into: id=user-name
+2026-06-25 15:44:19.560 [main] INFO  com.automation.bases.BasePage — Typed 'wrongpass' into: id=password
+2026-06-25 15:44:19.560 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: wrong_user
+2026-06-25 15:44:19.793 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:44:19.798 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:44:19.908 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:44:20.010 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:44:20.186 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:44:20.187 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:44:20.194 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:20.195 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:44:20.195 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:20.195 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:44:21.326 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:44:23.335 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:44:23.377 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:44:23.394 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:44:23.695 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 15:44:23.878 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=password
+2026-06-25 15:44:23.878 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 15:44:24.275 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:44:24.277 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:44:24.467 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:44:24.586 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:44:24.736 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:44:24.737 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 15:44:24.743 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:24.744 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 15:44:24.744 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 15:44:24.744 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 15:44:25.862 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 15:44:26.395 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 15:44:26.444 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 15:44:26.454 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 15:44:26.717 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=user-name
+2026-06-25 15:44:26.835 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 15:44:26.835 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: 
+2026-06-25 15:44:27.109 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 15:44:27.109 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 15:44:27.248 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 15:44:27.360 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 15:44:27.535 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 15:44:27.535 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:35:11.440 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:11.447 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 23:35:11.447 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:11.449 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 23:35:11.449 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:35:13.857 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:35:14.310 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:35:14.413 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:35:14.444 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:35:14.836 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:35:15.007 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:35:15.007 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:35:20.316 [main] INFO  com.automation.bases.BasePage — Clicked element: unknown-element
+2026-06-25 23:35:20.316 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:35:20.574 [main] INFO  com.automation.pages.HomePage — Home page loaded: true
+2026-06-25 23:35:20.574 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified home page loaded
+2026-06-25 23:35:20.838 [main] INFO  com.automation.bases.BasePage — Read text 'Products' from: span
+2026-06-25 23:35:20.838 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified page heading: Products
+2026-06-25 23:35:21.009 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Successful login with valid credentials
+2026-06-25 23:35:21.165 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:35:21.165 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:35:21.178 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:21.179 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 23:35:21.179 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:21.179 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:35:22.276 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:35:22.552 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:35:22.577 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:35:22.600 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:35:22.898 [main] INFO  com.automation.bases.BasePage — Typed 'locked_out_user' into: id=user-name
+2026-06-25 23:35:23.032 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:35:23.032 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: locked_out_user
+2026-06-25 23:35:23.258 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:35:23.258 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:35:23.364 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:35:23.498 [main] INFO  com.automation.bases.BasePage — Read text 'Epic sadface: Sorry, this user has been locked out.' from: h3
+2026-06-25 23:35:23.498 [main] WARN  com.automation.pages.LoginPage — Login error displayed: Epic sadface: Sorry, this user has been locked out.
+2026-06-25 23:35:23.514 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message contains: locked out
+2026-06-25 23:35:23.599 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with locked out user
+2026-06-25 23:35:23.728 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:35:23.728 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:35:23.735 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:23.735 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:35:23.735 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:23.736 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:35:24.788 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:35:25.103 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:35:25.128 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:35:25.143 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:35:25.401 [main] INFO  com.automation.bases.BasePage — Typed 'wrong_user' into: id=user-name
+2026-06-25 23:35:25.540 [main] INFO  com.automation.bases.BasePage — Typed 'wrongpass' into: id=password
+2026-06-25 23:35:25.540 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: wrong_user
+2026-06-25 23:35:25.741 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:35:25.741 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:35:25.849 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:35:25.941 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:35:26.099 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:35:26.100 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:35:26.104 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:26.105 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:35:26.105 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:26.105 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:35:27.141 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:35:27.402 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:35:27.425 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:35:27.441 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:35:27.691 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:35:27.802 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=password
+2026-06-25 23:35:27.802 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:35:28.027 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:35:28.027 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:35:28.149 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:35:28.255 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:35:28.396 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:35:28.397 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:35:28.403 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:28.403 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:35:28.403 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:35:28.403 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:35:29.374 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:35:29.647 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:35:29.681 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:35:29.704 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:35:29.924 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=user-name
+2026-06-25 23:35:30.008 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:35:30.008 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: 
+2026-06-25 23:35:30.182 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:35:30.182 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:35:30.374 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:35:30.474 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:35:30.599 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:35:30.599 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:44:09.559 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:09.565 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 23:44:09.566 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:09.567 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 23:44:09.567 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:44:11.167 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:44:11.479 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:44:11.597 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:44:11.702 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:44:12.076 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:44:12.237 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:44:12.237 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:44:17.572 [main] INFO  com.automation.bases.BasePage — Clicked element: unknown-element
+2026-06-25 23:44:17.572 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:44:17.796 [main] INFO  com.automation.pages.HomePage — Home page loaded: true
+2026-06-25 23:44:17.796 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified home page loaded
+2026-06-25 23:44:18.059 [main] INFO  com.automation.bases.BasePage — Read text 'Products' from: span
+2026-06-25 23:44:18.059 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified page heading: Products
+2026-06-25 23:44:18.235 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Successful login with valid credentials
+2026-06-25 23:44:18.390 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:44:18.390 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:44:18.399 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:18.399 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 23:44:18.399 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:18.400 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:44:19.347 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:44:19.620 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:44:19.648 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:44:19.665 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:44:19.934 [main] INFO  com.automation.bases.BasePage — Typed 'locked_out_user' into: id=user-name
+2026-06-25 23:44:20.165 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:44:20.165 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: locked_out_user
+2026-06-25 23:44:20.373 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:44:20.373 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:44:20.498 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:44:20.661 [main] INFO  com.automation.bases.BasePage — Read text 'Epic sadface: Sorry, this user has been locked out.' from: h3
+2026-06-25 23:44:20.661 [main] WARN  com.automation.pages.LoginPage — Login error displayed: Epic sadface: Sorry, this user has been locked out.
+2026-06-25 23:44:20.661 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message contains: locked out
+2026-06-25 23:44:20.750 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with locked out user
+2026-06-25 23:44:20.873 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:44:20.873 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:44:20.881 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:20.882 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:44:20.882 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:20.882 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:44:21.793 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:44:22.098 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:44:22.130 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:44:22.148 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:44:22.463 [main] INFO  com.automation.bases.BasePage — Typed 'wrong_user' into: id=user-name
+2026-06-25 23:44:22.581 [main] INFO  com.automation.bases.BasePage — Typed 'wrongpass' into: id=password
+2026-06-25 23:44:22.581 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: wrong_user
+2026-06-25 23:44:22.798 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:44:22.798 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:44:22.898 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:44:22.998 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:44:23.167 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:44:23.167 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:44:23.173 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:23.174 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:44:23.174 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:23.174 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:44:24.250 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:44:24.586 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:44:24.623 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:44:24.632 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:44:24.881 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:44:25.016 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=password
+2026-06-25 23:44:25.016 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:44:25.217 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:44:25.217 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:44:25.331 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:44:25.428 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:44:25.599 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:44:25.599 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:44:25.605 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:25.606 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:44:25.606 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:44:25.606 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:44:26.664 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:44:27.016 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:44:27.054 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:44:27.066 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:44:27.306 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=user-name
+2026-06-25 23:44:27.422 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:44:27.422 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: 
+2026-06-25 23:44:27.621 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:44:27.621 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:44:27.742 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:44:27.831 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:44:27.969 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:44:27.969 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:49:45.797 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:49:45.804 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 23:49:45.804 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:49:45.805 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 23:49:45.805 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:49:47.348 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:49:47.712 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:49:47.924 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:49:48.023 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:49:48.321 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:49:48.501 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:49:48.503 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:49:53.789 [main] INFO  com.automation.bases.BasePage — Clicked element: unknown-element
+2026-06-25 23:49:53.794 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:49:54.105 [main] INFO  com.automation.pages.HomePage — Home page loaded: true
+2026-06-25 23:49:54.105 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified home page loaded
+2026-06-25 23:49:54.392 [main] INFO  com.automation.bases.BasePage — Read text 'Products' from: span
+2026-06-25 23:49:54.392 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified page heading: Products
+2026-06-25 23:49:54.551 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Successful login with valid credentials
+2026-06-25 23:49:54.712 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:49:54.713 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:49:54.722 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:49:54.722 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 23:49:54.722 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:49:54.722 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:49:55.710 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:49:55.979 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:49:56.005 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:49:56.079 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:49:56.371 [main] INFO  com.automation.bases.BasePage — Typed 'locked_out_user' into: id=user-name
+2026-06-25 23:49:56.484 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:49:56.484 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: locked_out_user
+2026-06-25 23:49:56.702 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:49:56.705 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:49:56.837 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:49:56.986 [main] INFO  com.automation.bases.BasePage — Read text 'Epic sadface: Sorry, this user has been locked out.' from: h3
+2026-06-25 23:49:56.986 [main] WARN  com.automation.pages.LoginPage — Login error displayed: Epic sadface: Sorry, this user has been locked out.
+2026-06-25 23:49:56.986 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message contains: locked out
+2026-06-25 23:49:57.073 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with locked out user
+2026-06-25 23:49:57.230 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:49:57.230 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:49:57.239 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:49:57.240 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:49:57.240 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:49:57.240 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:49:58.304 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:49:58.589 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:49:58.612 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:49:58.622 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:49:58.855 [main] INFO  com.automation.bases.BasePage — Typed 'wrong_user' into: id=user-name
+2026-06-25 23:49:58.955 [main] INFO  com.automation.bases.BasePage — Typed 'wrongpass' into: id=password
+2026-06-25 23:49:58.955 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: wrong_user
+2026-06-25 23:49:59.138 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:49:59.138 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:49:59.281 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:49:59.388 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:49:59.509 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:49:59.510 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:49:59.515 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:49:59.515 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:49:59.515 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:49:59.515 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:50:00.540 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:50:00.821 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:50:00.858 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:50:00.875 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:50:01.131 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:50:01.212 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=password
+2026-06-25 23:50:01.212 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:50:01.454 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:50:01.454 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:50:01.563 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:50:01.654 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:50:01.818 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:50:01.818 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:50:01.827 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:50:01.827 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:50:01.827 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:50:01.827 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:50:02.838 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:50:03.154 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:50:03.174 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:50:03.203 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:50:03.424 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=user-name
+2026-06-25 23:50:03.524 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:50:03.524 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: 
+2026-06-25 23:50:03.807 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:50:03.807 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:50:03.929 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:50:04.029 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:50:04.180 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:50:04.180 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:52:48.047 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:52:48.053 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 23:52:48.053 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:52:48.055 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 23:52:48.055 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:52:49.593 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:52:50.061 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:52:50.180 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:52:50.204 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:52:50.500 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:52:50.626 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:52:50.626 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:52:55.962 [main] INFO  com.automation.bases.BasePage — Clicked element: unknown-element
+2026-06-25 23:52:55.962 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:52:56.266 [main] INFO  com.automation.pages.HomePage — Home page loaded: true
+2026-06-25 23:52:56.266 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified home page loaded
+2026-06-25 23:52:56.543 [main] INFO  com.automation.bases.BasePage — Read text 'Products' from: span
+2026-06-25 23:52:56.543 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified page heading: Products
+2026-06-25 23:52:56.716 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Successful login with valid credentials
+2026-06-25 23:52:56.890 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:52:56.891 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:52:56.898 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:52:56.898 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 23:52:56.898 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:52:56.898 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:52:57.858 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:52:58.458 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:52:58.493 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:52:58.517 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:52:58.771 [main] INFO  com.automation.bases.BasePage — Typed 'locked_out_user' into: id=user-name
+2026-06-25 23:52:58.884 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:52:58.886 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: locked_out_user
+2026-06-25 23:52:59.126 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:52:59.126 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:52:59.235 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:52:59.383 [main] INFO  com.automation.bases.BasePage — Read text 'Epic sadface: Sorry, this user has been locked out.' from: h3
+2026-06-25 23:52:59.390 [main] WARN  com.automation.pages.LoginPage — Login error displayed: Epic sadface: Sorry, this user has been locked out.
+2026-06-25 23:52:59.390 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message contains: locked out
+2026-06-25 23:52:59.481 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with locked out user
+2026-06-25 23:52:59.602 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:52:59.603 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:52:59.610 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:52:59.610 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:52:59.610 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:52:59.610 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:53:00.578 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:53:00.853 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:53:00.886 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:53:00.919 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:53:01.161 [main] INFO  com.automation.bases.BasePage — Typed 'wrong_user' into: id=user-name
+2026-06-25 23:53:01.308 [main] INFO  com.automation.bases.BasePage — Typed 'wrongpass' into: id=password
+2026-06-25 23:53:01.308 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: wrong_user
+2026-06-25 23:53:01.542 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:53:01.542 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:53:01.667 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:53:01.768 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:53:01.911 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:53:01.912 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:53:01.915 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:53:01.916 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:53:01.916 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:53:01.916 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:53:02.934 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:53:03.213 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:53:03.241 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:53:03.251 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:53:03.475 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:53:03.566 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=password
+2026-06-25 23:53:03.566 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:53:03.778 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:53:03.778 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:53:03.918 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:53:04.018 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:53:04.165 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:53:04.165 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:53:04.173 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:53:04.174 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:53:04.174 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:53:04.174 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:53:05.217 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:53:05.552 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:53:05.575 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:53:05.584 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:53:05.838 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=user-name
+2026-06-25 23:53:05.951 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:53:05.951 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: 
+2026-06-25 23:53:06.144 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:53:06.144 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:53:06.281 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:53:06.375 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:53:06.542 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:53:06.542 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:57:27.330 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:27.330 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Successful login with valid credentials
+2026-06-25 23:57:27.330 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:27.487 [main] INFO  com.automation.utils.ConfigReader — Config loaded successfully from: src/test/resources/config/config.properties
+2026-06-25 23:57:27.487 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:57:29.223 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:57:29.490 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:57:29.589 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:57:29.618 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:57:30.043 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:57:30.232 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:57:30.232 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:57:35.614 [main] INFO  com.automation.bases.BasePage — Clicked element: unknown-element
+2026-06-25 23:57:35.616 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:57:36.118 [main] INFO  com.automation.pages.HomePage — Home page loaded: true
+2026-06-25 23:57:36.118 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified home page loaded
+2026-06-25 23:57:36.591 [main] INFO  com.automation.bases.BasePage — Read text 'Products' from: span
+2026-06-25 23:57:36.591 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified page heading: Products
+2026-06-25 23:57:37.006 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Successful login with valid credentials
+2026-06-25 23:57:37.172 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:57:37.173 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:57:37.182 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:37.182 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with locked out user
+2026-06-25 23:57:37.182 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:37.182 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:57:38.176 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:57:38.460 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:57:38.483 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:57:38.498 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:57:38.837 [main] INFO  com.automation.bases.BasePage — Typed 'locked_out_user' into: id=user-name
+2026-06-25 23:57:38.924 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:57:38.924 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: locked_out_user
+2026-06-25 23:57:39.181 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:57:39.182 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:57:39.397 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:57:39.614 [main] INFO  com.automation.bases.BasePage — Read text 'Epic sadface: Sorry, this user has been locked out.' from: h3
+2026-06-25 23:57:39.614 [main] WARN  com.automation.pages.LoginPage — Login error displayed: Epic sadface: Sorry, this user has been locked out.
+2026-06-25 23:57:39.614 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message contains: locked out
+2026-06-25 23:57:39.777 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with locked out user
+2026-06-25 23:57:39.919 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:57:39.919 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:57:39.923 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:39.923 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:57:39.924 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:39.924 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:57:40.944 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:57:41.215 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:57:41.236 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:57:41.249 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:57:41.572 [main] INFO  com.automation.bases.BasePage — Typed 'wrong_user' into: id=user-name
+2026-06-25 23:57:41.649 [main] INFO  com.automation.bases.BasePage — Typed 'wrongpass' into: id=password
+2026-06-25 23:57:41.649 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: wrong_user
+2026-06-25 23:57:41.902 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:57:41.903 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:57:42.103 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:57:42.277 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:57:42.444 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:57:42.444 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:57:42.449 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:42.449 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:57:42.449 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:42.450 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:57:43.440 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:57:43.705 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:57:43.727 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:57:43.741 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:57:44.033 [main] INFO  com.automation.bases.BasePage — Typed 'standard_user' into: id=user-name
+2026-06-25 23:57:44.103 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=password
+2026-06-25 23:57:44.104 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: standard_user
+2026-06-25 23:57:44.358 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:57:44.359 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:57:44.552 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:57:44.732 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:57:44.878 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:57:44.879 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+
+2026-06-25 23:57:44.884 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:44.884 [main] INFO  com.automation.hooks.Hooks — STARTING SCENARIO: Login fails with invalid credentials
+2026-06-25 23:57:44.884 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+2026-06-25 23:57:44.885 [main] INFO  com.automation.factory.DriverFactory — Initializing browser: chrome | Headless: false
+2026-06-25 23:57:45.833 [main] INFO  com.automation.factory.DriverFactory — Driver initialized and stored for thread: 1
+2026-06-25 23:57:46.415 [main] INFO  com.automation.hooks.Hooks — Navigated to base URL: https://www.saucedemo.com
+2026-06-25 23:57:46.444 [main] INFO  com.automation.pages.LoginPage — Login page loaded successfully
+2026-06-25 23:57:46.461 [main] INFO  com.automation.stepdefinitions.LoginSteps — Navigated to and verified login page
+2026-06-25 23:57:46.749 [main] INFO  com.automation.bases.BasePage — Typed '' into: id=user-name
+2026-06-25 23:57:46.839 [main] INFO  com.automation.bases.BasePage — Typed 'secret_sauce' into: id=password
+2026-06-25 23:57:46.839 [main] INFO  com.automation.stepdefinitions.LoginSteps — Entered credentials — username: 
+2026-06-25 23:57:47.082 [main] INFO  com.automation.bases.BasePage — Clicked element: id=login-button
+2026-06-25 23:57:47.083 [main] INFO  com.automation.stepdefinitions.LoginSteps — Clicked login button
+2026-06-25 23:57:47.281 [main] INFO  com.automation.stepdefinitions.LoginSteps — Verified error message is displayed
+2026-06-25 23:57:47.446 [main] INFO  com.automation.hooks.Hooks — SCENARIO PASSED: Login fails with invalid credentials
+2026-06-25 23:57:47.586 [main] INFO  com.automation.factory.DriverFactory — Driver quit and removed for thread: 1
+2026-06-25 23:57:47.588 [main] INFO  com.automation.hooks.Hooks — ════════════════════════════════════════════
+

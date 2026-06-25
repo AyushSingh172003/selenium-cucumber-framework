@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <documentTitle>Automation Test Report</documentTitle>
+        <reportName>Selenium Cucumber BDD Framework</reportName>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+    </configuration>
+</extentreports>
