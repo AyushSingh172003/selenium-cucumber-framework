@@ -97,9 +97,30 @@ public abstract class BasePage {
 
     private String describe(WebElement element) {
         try {
+
             String id = element.getAttribute("id");
-            if (id != null && !id.isEmpty()) return "id=" + id;
-            return element.getTagName();
+            if (id != null && !id.isBlank()) {
+                return "id=" + id;
+            }
+
+            String name = element.getAttribute("name");
+            if (name != null && !name.isBlank()) {
+                return "name=" + name;
+            }
+
+            String className = element.getAttribute("class");
+            if (className != null && !className.isBlank()) {
+                return "class=" + className;
+            }
+
+            String text = element.getText();
+            if (text != null && !text.isBlank()) {
+                return "text=" + text;
+            }
+            return "tag=" + element.getTagName();
+
+        } catch (StaleElementReferenceException e) {
+            return "stale-element";
         } catch (Exception e) {
             return "unknown-element";
         }
