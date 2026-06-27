@@ -19,6 +19,12 @@ public class CartPage extends BasePage {
     @FindBy(className = "title")
     private WebElement pageTitle;
 
+    @FindBy(id = "checkout")
+    private WebElement checkoutButton;
+
+    @FindBy(id = "continue-shopping")
+    private WebElement continueShoppingButton;
+
     private final By cartItemNames = By.className("inventory_item_name");
 
     public CartPage(WebDriver driver) {
@@ -29,9 +35,13 @@ public class CartPage extends BasePage {
     public boolean isPageLoaded() {
         try {
             wait.until(ExpectedConditions.visibilityOf(pageTitle));
+
             boolean loaded = pageTitle.getText().equalsIgnoreCase("Your Cart");
+
             log.info("Cart page loaded: {}", loaded);
+
             return loaded;
+
         } catch (Exception e) {
             log.error("Cart page failed to load: {}", e.getMessage());
             return false;
@@ -39,7 +49,8 @@ public class CartPage extends BasePage {
     }
 
     public List<String> getCartItemNames() {
-        return driver.findElements(cartItemNames).stream()
+        return driver.findElements(cartItemNames)
+                .stream()
                 .map(WebElement::getText)
                 .collect(Collectors.toList());
     }
@@ -49,6 +60,44 @@ public class CartPage extends BasePage {
     }
 
     public boolean isProductInCart(String productName) {
-        return getCartItemNames().contains(productName);
+        boolean present = getCartItemNames().contains(productName);
+
+        log.info("Product '{}' present in cart: {}", productName, present);
+
+        return present;
+    }
+
+    public CartPage removeProduct(String productName) {
+        String dataTestSuffix = productName.toLowerCase()
+                .replace(" ", "-")
+                .replace("(", "")
+                .replace(")", "")
+                .replace(".", "");
+
+        WebElement removeButton = driver.findElement(
+                By.cssSelector("[data-test='remove-" + dataTestSuffix + "']")
+        );
+
+        click(removeButton);
+
+        log.info("Removed product from cart page: {}", productName);
+
+        return this;
+    }
+
+    public CheckoutPage clickCheckout() {
+        click(checkoutButton);
+
+        log.info("Clicked checkout button");
+
+        return new CheckoutPage(driver);
+    }
+
+    public HomePage clickContinueShopping() {
+        click(continueShoppingButton);
+
+        log.info("Clicked continue shopping button");
+
+        return new HomePage(driver);
     }
 }

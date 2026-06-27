@@ -1,10 +1,17 @@
+# Maven
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# Kotlin
+
 .kotlin
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA
+
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
@@ -13,16 +20,18 @@ target/
 *.iml
 *.ipr
 
-### Eclipse ###
+# Eclipse
+
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# NetBeans
+
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -32,11 +41,40 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code
+
 .vscode/
 
-### Mac OS ###
+# Mac OS
+
 .DS_Store
 
-### Project-specific ###
+# Logs
+
+logs/
+*.log
+
+# Reports
+
 test-output/
+surefire-reports/
+cucumber-reports/
+
+# Allure
+
+allure-results/
+allure-report/
+
+# Screenshots
+
+screenshots/
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# OS generated files
+
+Thumbs.db
+desktop.ini

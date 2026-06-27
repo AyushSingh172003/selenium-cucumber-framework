@@ -48,8 +48,14 @@ public abstract class BasePage {
     protected void type(WebElement element, String text) {
         wait.until(ExpectedConditions.visibilityOf(element));
         element.clear();
-        element.sendKeys(text);
-        log.info("Typed '{}' into: {}", text, describe(element));
+        if (text != null) {
+            element.sendKeys(text);
+        }
+        log.info(
+                "Typed '{}' into: {}",
+                text == null ? "<EMPTY>" : text,
+                describe(element)
+        );
     }
 
     protected String getText(WebElement element) {

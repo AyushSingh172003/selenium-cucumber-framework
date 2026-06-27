@@ -54,10 +54,14 @@ public class ExtentManager {
         return currentTest.get();
     }
 
-    public static void flush() {
+    public static synchronized void flush() {
         if (extent != null) {
             extent.flush();
-            System.out.println("[ExtentManager] Report flushed to disk.");
+            currentTest.remove();
+
+            System.out.println(
+                    "[ExtentManager] Report flushed to disk."
+            );
         }
     }
 }

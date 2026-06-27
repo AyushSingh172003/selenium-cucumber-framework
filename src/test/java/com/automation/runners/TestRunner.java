@@ -16,7 +16,8 @@ import org.testng.annotations.DataProvider;
         plugin = {
                 "pretty",
                 "html:test-output/cucumber-reports/cucumber-html-report.html",
-                "json:test-output/cucumber-reports/cucumber.json"
+                "json:test-output/cucumber-reports/cucumber.json",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         tags = "not @ignore",
         monochrome = true
@@ -31,7 +32,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     }
 
     @Override
-    @DataProvider(parallel = false)
+    @DataProvider(parallel = true)
     public Object[][] scenarios() {
         return super.scenarios();
     }
