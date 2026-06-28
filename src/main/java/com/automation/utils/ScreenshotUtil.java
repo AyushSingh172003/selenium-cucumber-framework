@@ -19,13 +19,22 @@ public class ScreenshotUtil {
         try {
 
             String timestamp =
-                    new SimpleDateFormat("yyyyMMdd_HHmmss")
+                    new SimpleDateFormat("yyyyMMdd_HHmmss_SSS")
                             .format(new Date());
+
+            // Thread ID disambiguates filenames when parallel scenarios
+            // finish within the same millisecond AND share an identical
+            // sanitized name (common with Scenario Outline rows).
+            // Without this, REPLACE_EXISTING can silently overwrite one
+            // thread's screenshot with another's.
+            long threadId = Thread.currentThread().getId();
 
             String fileName =
                     status + "_" +
                             scenarioName.replaceAll("[^a-zA-Z0-9]", "_") +
-                            "_" + timestamp + ".png";
+                            "_" + timestamp +
+                            "_t" + threadId +
+                            ".png";
 
             String path =
                     ConfigReader.getInstance().getScreenshotPath()

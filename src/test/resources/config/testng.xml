@@ -9,4 +9,10 @@
         </classes>
     </test>
 
+    <test name="Excel Driven Login Tests">
+        <classes>
+            <class name="com.automation.tests.ExcelLoginTest"/>
+        </classes>
+    </test>
+
 </suite>

@@ -43,15 +43,9 @@ public class HomePage extends BasePage {
     public boolean isPageLoaded() {
         try {
             wait.until(ExpectedConditions.visibilityOf(pageTitle));
-
-            boolean loaded =
-                    pageTitle.getText()
-                            .equalsIgnoreCase("Products");
-
+            boolean loaded = pageTitle.getText().equalsIgnoreCase("Products");
             log.info("Home page loaded: {}", loaded);
-
             return loaded;
-
         } catch (Exception e) {
             log.error("Home page failed to load: {}", e.getMessage());
             return false;
@@ -68,17 +62,13 @@ public class HomePage extends BasePage {
 
     public HomePage sortProductsBy(String visibleText) {
         Select select = new Select(sortDropdown);
-
         select.selectByVisibleText(visibleText);
-
         log.info("Sorted products by: {}", visibleText);
-
         return this;
     }
 
     public String getCurrentSortOption() {
         Select select = new Select(sortDropdown);
-
         return select.getFirstSelectedOption().getText();
     }
 
@@ -87,33 +77,18 @@ public class HomePage extends BasePage {
     // ──────────────────────────────────────────────
 
     public List<String> getAllProductNames() {
-
-        List<String> names =
-                driver.findElements(productNames)
-                        .stream()
-                        .map(WebElement::getText)
-                        .collect(Collectors.toList());
-
+        List<String> names = driver.findElements(productNames).stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
         log.info("Found {} product names", names.size());
-
         return names;
     }
 
     public List<Double> getAllProductPricesAsDouble() {
-
-        List<Double> prices =
-                driver.findElements(productPrices)
-                        .stream()
-                        .map(price ->
-                                Double.parseDouble(
-                                        price.getText()
-                                                .replace("$", "")
-                                )
-                        )
-                        .collect(Collectors.toList());
-
+        List<Double> prices = driver.findElements(productPrices).stream()
+                .map(price -> Double.parseDouble(price.getText().replace("$", "")))
+                .collect(Collectors.toList());
         log.info("Found {} product prices: {}", prices.size(), prices);
-
         return prices;
     }
 
@@ -122,18 +97,10 @@ public class HomePage extends BasePage {
     }
 
     public MenuPage openMenu() {
-
         click(menuButton);
-
         MenuPage menuPage = new MenuPage(driver);
-
-        Assert.assertTrue(
-                menuPage.isPageLoaded(),
-                "Hamburger menu failed to open"
-        );
-
+        Assert.assertTrue(menuPage.isPageLoaded(), "Hamburger menu failed to open");
         log.info("Opened hamburger menu");
-
         return menuPage;
     }
 
@@ -142,52 +109,18 @@ public class HomePage extends BasePage {
     // ──────────────────────────────────────────────
 
     public HomePage addProductToCart(String productName) {
-
-        String dataTestSuffix =
-                productName.toLowerCase()
-                        .replace(" ", "-")
-                        .replace("(", "")
-                        .replace(")", "")
-                        .replace(".", "");
-
-        WebElement addButton =
-                driver.findElement(
-                        By.cssSelector(
-                                "[data-test='add-to-cart-"
-                                        + dataTestSuffix
-                                        + "']"
-                        )
-                );
-
+        WebElement addButton = driver.findElement(
+                By.cssSelector("[data-test='add-to-cart-" + slugify(productName) + "']"));
         click(addButton);
-
         log.info("Added product to cart: {}", productName);
-
         return this;
     }
 
     public HomePage removeProductFromCart(String productName) {
-
-        String dataTestSuffix =
-                productName.toLowerCase()
-                        .replace(" ", "-")
-                        .replace("(", "")
-                        .replace(")", "")
-                        .replace(".", "");
-
-        WebElement removeButton =
-                driver.findElement(
-                        By.cssSelector(
-                                "[data-test='remove-"
-                                        + dataTestSuffix
-                                        + "']"
-                        )
-                );
-
+        WebElement removeButton = driver.findElement(
+                By.cssSelector("[data-test='remove-" + slugify(productName) + "']"));
         click(removeButton);
-
         log.info("Removed product from cart: {}", productName);
-
         return this;
     }
 
@@ -204,11 +137,8 @@ public class HomePage extends BasePage {
     }
 
     public CartPage goToCart() {
-
         click(cartIcon);
-
         log.info("Navigated to cart page");
-
         return new CartPage(driver);
     }
 
@@ -221,25 +151,9 @@ public class HomePage extends BasePage {
     }
 
     public boolean isProductAddedToCart(String productName) {
-
-        String dataTestSuffix =
-                productName.toLowerCase()
-                        .replace(" ", "-")
-                        .replace("(", "")
-                        .replace(")", "")
-                        .replace(".", "");
-
         try {
-            driver.findElement(
-                    By.cssSelector(
-                            "[data-test='remove-"
-                                    + dataTestSuffix
-                                    + "']"
-                    )
-            );
-
+            driver.findElement(By.cssSelector("[data-test='remove-" + slugify(productName) + "']"));
             return true;
-
         } catch (Exception e) {
             return false;
         }

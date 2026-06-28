@@ -4,6 +4,7 @@ import com.automation.bases.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class CheckoutPage extends BasePage {
 
@@ -31,8 +32,8 @@ public class CheckoutPage extends BasePage {
 
     @Override
     public boolean isPageLoaded() {
-        return getPageTitle().contains("Swag Labs")
-                && pageTitle.getText().equals("Checkout: Your Information");
+        wait.until(ExpectedConditions.visibilityOf(pageTitle));
+        return pageTitle.getText().equals("Checkout: Your Information");
     }
 
     public CheckoutPage enterFirstName(String firstName) {
@@ -55,7 +56,16 @@ public class CheckoutPage extends BasePage {
         return new CheckoutOverviewPage(driver);
     }
 
-    public CheckoutOverviewPage enterCheckoutInformation(
+    /**
+     * Attempts to submit checkout information.
+     * Returns true if validation passed (page navigated forward).
+     * Returns false if validation failed (error message shown, still
+     * on this page). Callers MUST check the return value — this no
+     * longer silently returns null, which previously caused a
+     * NullPointerException risk on any caller chaining a method
+     * straight off the result.
+     */
+    public boolean enterCheckoutInformation(
             String firstName,
             String lastName,
             String postalCode) {
@@ -66,11 +76,7 @@ public class CheckoutPage extends BasePage {
 
         click(continueButton);
 
-        if (isErrorDisplayed()) {
-            return null;
-        }
-
-        return new CheckoutOverviewPage(driver);
+        return !isErrorDisplayed();
     }
 
     public boolean isErrorDisplayed() {

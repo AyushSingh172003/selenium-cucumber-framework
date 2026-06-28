@@ -4,6 +4,7 @@ import com.automation.bases.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class CheckoutCompletePage extends BasePage {
 
@@ -19,6 +20,7 @@ public class CheckoutCompletePage extends BasePage {
 
     @Override
     public boolean isPageLoaded() {
+        wait.until(ExpectedConditions.visibilityOf(pageTitle));
         return pageTitle.getText().equals("Checkout: Complete!");
     }
 

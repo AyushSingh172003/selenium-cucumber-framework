@@ -35,13 +35,9 @@ public class CartPage extends BasePage {
     public boolean isPageLoaded() {
         try {
             wait.until(ExpectedConditions.visibilityOf(pageTitle));
-
             boolean loaded = pageTitle.getText().equalsIgnoreCase("Your Cart");
-
             log.info("Cart page loaded: {}", loaded);
-
             return loaded;
-
         } catch (Exception e) {
             log.error("Cart page failed to load: {}", e.getMessage());
             return false;
@@ -61,43 +57,27 @@ public class CartPage extends BasePage {
 
     public boolean isProductInCart(String productName) {
         boolean present = getCartItemNames().contains(productName);
-
         log.info("Product '{}' present in cart: {}", productName, present);
-
         return present;
     }
 
     public CartPage removeProduct(String productName) {
-        String dataTestSuffix = productName.toLowerCase()
-                .replace(" ", "-")
-                .replace("(", "")
-                .replace(")", "")
-                .replace(".", "");
-
         WebElement removeButton = driver.findElement(
-                By.cssSelector("[data-test='remove-" + dataTestSuffix + "']")
-        );
-
+                By.cssSelector("[data-test='remove-" + slugify(productName) + "']"));
         click(removeButton);
-
         log.info("Removed product from cart page: {}", productName);
-
         return this;
     }
 
     public CheckoutPage clickCheckout() {
         click(checkoutButton);
-
         log.info("Clicked checkout button");
-
         return new CheckoutPage(driver);
     }
 
     public HomePage clickContinueShopping() {
         click(continueShoppingButton);
-
         log.info("Clicked continue shopping button");
-
         return new HomePage(driver);
     }
 }

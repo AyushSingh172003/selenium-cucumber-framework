@@ -79,6 +79,29 @@ public abstract class BasePage {
                 .collect(Collectors.toList());
     }
 
+    // ── SHARED HELPERS ─────────────────────────────────────────
+
+    /**
+     * Converts a product display name into the data-test attribute
+     * suffix SauceDemo uses for add/remove buttons.
+     * Centralised here so HomePage and CartPage don't each maintain
+     * their own copy that can drift out of sync.
+     */
+    protected String slugify(String productName) {
+        return productName.toLowerCase()
+                .replace(" ", "-")
+                .replace("(", "")
+                .replace(")", "")
+                .replace(".", "");
+    }
+
+    // Exposes the driver to step definitions that need to construct
+    // a new page object directly (e.g. after a branching action where
+    // the next page isn't automatically returned).
+    public WebDriver getDriver() {
+        return driver;
+    }
+
     // ── JAVASCRIPT FALLBACKS ──────────────────────────────────
 
     protected void jsClick(WebElement element) {
@@ -103,28 +126,23 @@ public abstract class BasePage {
 
     private String describe(WebElement element) {
         try {
-
             String id = element.getAttribute("id");
             if (id != null && !id.isBlank()) {
                 return "id=" + id;
             }
-
             String name = element.getAttribute("name");
             if (name != null && !name.isBlank()) {
                 return "name=" + name;
             }
-
             String className = element.getAttribute("class");
             if (className != null && !className.isBlank()) {
                 return "class=" + className;
             }
-
             String text = element.getText();
             if (text != null && !text.isBlank()) {
                 return "text=" + text;
             }
             return "tag=" + element.getTagName();
-
         } catch (StaleElementReferenceException e) {
             return "stale-element";
         } catch (Exception e) {
